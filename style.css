@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./pngtree-light-blue-background-image_264178.jpg);
+    background-size: cover;
+    border: 10px ridge lightgreen;
+    height: 1700px;
+}
+.parent-1{
+     display: flex;
+     justify-content: space-between;
+     margin: 20px;
+     width: 95%;
+     flex-wrap: wrap;
+}
+.child{
+ background-color: black;
+ border: 5px solid red; 
+ border-radius: 40px; 
+ color:white;
+ font-size: 30px;
+ font-family: 'Times New Roman', Times, serif;
+ font-style: italic;
+ width: 25%;
+ height: 100px;
+}
+.child1{
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 400px;
+}
+.child2{
+    padding-top: 30px;
+    padding-left: 80px;
+    height: 40px;
+    width: 400px;
+    margin-left: -400px;
+    margin-top: 20px;
+}
+.child3{
+    width: 300px;
+    padding-left: 40px;
+    padding-top: 20px;
+    height: 120px;
+    font-size: 25px;
+    line-height: 40px;
+}
+.parent-2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.child-A{
+    width: 300px;
+    height: 300px;
+    border: 5px solid rgb(3, 43, 39);
+    border-radius: 50%;
+    background-color:rgb(25, 167, 167);
+    margin-left: 100px;
+    margin-top: 250px;
+}
+.child4{
+    text-align: center;
+    padding-top: 130px;
+    font-size: 18px ;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 40px;
+}
+.child-B{
+    border:7px dashed  red;
+    width: 400px;
+    height: auto;
+    margin-right: 300px;
+    margin-top: 50px;
+}
+h1{
+    font-size: 28px;
+    color: rgb(146, 19, 19);
+    line-height: 90px;
+
+}
+.child5{
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    color: rgb(185, 11, 11);
+}
+
+input{
+    text-align: center;
+}
+.child6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 450px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 50px;
+    width: 400px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.parent-3{
+    display: flex;
+     justify-content: center; 
+     justify-content: space-evenly; 
+     margin: 25px; 
+     width: 98%; 
+    flex-wrap: wrap;
+    gap: 30px;
+}
+span{
+    color: rgb(9, 9, 139);
+    font-size: 40px;
+    padding-top: 10px;
+    font-weight: bold;
+
+}
+
+.ch{
+    width: 350px;
+    height: 220px;
+    border: 5px solid rgb(4, 46, 17);
+    border-radius: 40px;
+    text-align: center;
+    background-color: rgb(96, 238, 238);
+    color: blue;
+    font-size: 18px;
+}
+ul li{
+    margin: 20px;
+    line-height: 1px;
+}
+.child7{
+    height: 270px;
+}
