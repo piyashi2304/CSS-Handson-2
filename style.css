@@ -52,6 +52,9 @@ body{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+.circle-text{
+    margin-top: 70px;
+}
 .child-A{
     width: 300px;
     height: 300px;
@@ -59,11 +62,12 @@ body{
     border-radius: 50%;
     background-color:rgb(25, 167, 167);
     margin-left: 100px;
-    margin-top: 250px;
+    margin-top: 300px;
 }
 .child4{
+    /* text-align: center; */
+    /* padding-top: 130px; */
     text-align: center;
-    padding-top: 130px;
     font-size: 18px ;
     font-style: italic;
     font-weight: bold;
